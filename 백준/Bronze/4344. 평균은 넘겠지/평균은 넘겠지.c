@@ -12,6 +12,8 @@ int main()
         scanf("%d", &n);
         int score[n];
         int sum = 0;
+        // sum의 위치에 주의합니다!!
+        // for문 안에서 반복적으로 초기화 필요!!
         for(int j = 0; j < n; j++)
         {
             scanf("%d", &score[j]);
